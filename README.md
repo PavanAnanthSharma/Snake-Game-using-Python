@@ -38,3 +38,20 @@ green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>Step 2: After importing libraries we need to initialize Pygame using pygame.init() method. 
+
+- Create a game window using the width and height defined in the previous step.
+- Here pygame.time.Clock() will be used further in the main logic of the game to change the speed of the snake.
+``` python
+# Initialising pygame
+pygame.init()
+
+# Initialise game window
+pygame.display.set_caption('GeeksforGeeks Snakes')
+game_window = pygame.display.set_mode((window_x, window_y))
+
+# FPS (frames per second) controller
+fps = pygame.time.Clock()
+
+```
