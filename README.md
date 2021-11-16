@@ -55,3 +55,16 @@ game_window = pygame.display.set_mode((window_x, window_y))
 fps = pygame.time.Clock()
 
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>Step 3: Initialize snake position and its size.
+
+- After initializing snake position, initialize the fruit position randomly anywhere in the defined height and width.
+- By setting direction to RIGHT we ensure that, whenever a user runs the program/game, the snake must move right to the screen.
+
+
+
+
+
+
+
