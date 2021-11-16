@@ -111,4 +111,20 @@ def show_score(choice, color, font, size):
 	# displaying text
 	game_window.blit(score_surface, score_rect)
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>Step 5: Now create a game over function that will represent the score after the snake is hit by a wall or itself. 
+
+- In the first line, we are creating a font object to display scores.
+- Then we are creating text surfaces to render scores.
+- After that, we are setting the position of the text in the middle of the playable area.
+- Display the scores using blit and updating the score by updating the surface using flip().
+- We are using sleep(2) to wait for 2 seconds before closing the window using quit().
+
+
+
+
+
+
+
 
