@@ -154,7 +154,13 @@ def game_over():
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+>Step 6: Now we will be creating our main function that will do the following things:
 
+- We will be validating the keys that will be responsible for the movement of the snake, then we will be creating a special condition that the snake should not be allowed to move in the opposite direction instantaneously.
+- After that, if snake and fruit collide we will be incrementing the score by 10 and new fruit will be spanned.
+- After that, we are checking that is the snake hit with a wall or not. If a snake hits a wall we will call game over function.
+- If the snake hits itself, the game over function will be called.
+- And in the end, we will be displaying the scores using the show_score function created earlier.
 
 
 
