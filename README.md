@@ -61,8 +61,27 @@ fps = pygame.time.Clock()
 
 - After initializing snake position, initialize the fruit position randomly anywhere in the defined height and width.
 - By setting direction to RIGHT we ensure that, whenever a user runs the program/game, the snake must move right to the screen.
+``` python
+# defining snake default position
+snake_position = [100, 50]
 
+# defining first 4 blocks of snake
+# body
+snake_body = [ [100, 50],
+				[90, 50],
+				[80, 50],
+				[70, 50]
+			]
+# fruit position
+fruit_position = [random.randrange(1, (window_x//10)) * 10,
+				random.randrange(1, (window_y//10)) * 10]
+fruit_spawn = True
 
+# setting default snake direction
+# towards right
+direction = 'RIGHT'
+change_to = direction
+```
 
 
 
